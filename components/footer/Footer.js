@@ -80,7 +80,7 @@ const Footer = (props) => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <div className="copyright">Copyright © 2023 Merix by <Link onClick={ClickHandler} href="/">noor_tech</Link>. All Rights Reserved. All Rights Reserved.</div>
+                    <div className="copyright">Copyright © 2023 by <Link onClick={ClickHandler} href="/">FasTech Systems</Link>. All Rights Reserved. All Rights Reserved.</div>
                 </div>
 
             </div>

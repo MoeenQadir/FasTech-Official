@@ -3,7 +3,7 @@ import Link from 'next/link'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
-import Logo from '/public/images/logo.png'
+import Logo from '/public/images/logo/fastech.png'
 import Image from 'next/image';
 
 

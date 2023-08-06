@@ -21,7 +21,7 @@ const WhyChoose = (props) => {
                     <h2>We Provide the Best Facilites For Business</h2>
                     <div className="text">From keyword research to technical auditing to site migration, our team of technical <br/> SEOs are true experts in their field.</div>
                 </div>
-                <Link  nClick={ClickHandler} href="/about" className="theme-btn btn-style-eight"><span className="txt">Lets Start</span></Link>
+                <Link  nClick={ClickHandler} href="/about" className="theme-btn btn-style-three"><span className="txt">Lets Start</span></Link>
                 <div className="inner-container">
                     <div className="row clearfix">
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">

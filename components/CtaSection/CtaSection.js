@@ -16,8 +16,8 @@ const CtaSection = (props) => {
                 <div className="row clearfix">
                     <div className="title-column col-lg-6 col-md-12 col-sm-12">
                         <div className="inner-column">
-                            <h2>Take Your Site to Next Level At this moment!</h2>
-                            <div className="text">Make the Right Choice for Your Future. Choose Moto!</div>
+                            <h2>Take Your Custom Software to Next Level!</h2>
+                            <div className="text">Make the Right Choice for Your Future. Choose FasTech!</div>
                             <Link onClick={ClickHandler} href="/about" className="theme-btn btn-style-five"><span className="txt">Lets Start</span></Link>
                         </div>
                     </div>

@@ -14,21 +14,21 @@ import sIcon3 from '/public/images/icons/service-3.png'
 const Services = [
     {
         Id: '1',
-        sTitle: 'Content Marketing', 
+        sTitle: 'Website Design & Development',
         slug: 'Content-Marketing',
         sImg:simg1,
         Icon:'flaticon-pie-chart',
         sIcon:sIcon1,
-        des:'You can provide the answers that your potential customers are trying to find, so you can become the industry.',
+        des:'Transforming your vision into captivating websites with seamless user experiences.',
     },
     {
         Id: '2',
-        sTitle: 'Social Marketing', 
+        sTitle: 'Web 3.0 Solutions',
         slug: 'Social-Marketing',
         sImg:simg2,
         sIcon:sIcon2,
         Icon:'flaticon-line-chart',
-        des:'Create and manage top-performing social campaigns and start developing a dedicated customer fan base.',
+        des:'Embrace decentralization and blockchain integration for secure, transparent, and innovative digital solutions.',
     },
     {
         Id: '3',
@@ -50,19 +50,19 @@ const Services = [
     },
     {
         Id: '5',
-        sTitle: 'Web Development', 
+        sTitle: 'AI, ML & Data Science',
         slug: 'Web-Development',
         sImg:simg5,
         Icon:'flaticon-gear',
-        des:'Your website has to impress your visitors within just a few seconds. If it runs slow, if it feels outdated.',
+        des:'Empowering businesses with intelligent automation, predictive insights, and personalized customer experiences.',
     },
     {
         Id: '6',
-        sTitle: 'PPC Advertising', 
+        sTitle: 'Custom Software',
         slug: 'PPC-Advertising',
         sImg:simg6,
         Icon:'flaticon-cloud-computing',
-        des:'You can provide the answers that your potential customers are trying to find, so you can become the industry.',
+        des:'Tailored software solutions that optimize operations, enhance productivity, and drive business growth.',
     }
 ]
 

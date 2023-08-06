@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Logo from '/public/images/logo.png'
+import Logo from '/public/images/logo/fastech-white.png'
 import Services from '../../api/Services';
 import Projects from '../../api/project'
 import Image from 'next/image';

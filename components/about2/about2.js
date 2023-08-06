@@ -13,10 +13,11 @@ const About2 = (props) => {
                         <div className="inner-column">
                             <div className="sec-title">
                                 <div className="title">ABOUT US</div>
-                                <h2>Grow Business with SEO</h2>
+                                <h2>Grow Business with FasTech</h2>
                             </div>
-                            <div className="bold-text">Over 12 years Merix helping companies reach their financial and branding goals.</div>
-                            <div className="text">Over the years, we have worked with Fortune 500s and brand-new startups. We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall sales. Give us a call.</div>
+                            <div className="bold-text">At FasTech, we revolutionize businesses with cutting-edge
+                                AI-powered enterprise solutions, setting new standards in security, scalability, and speed.</div>
+                            <div className="text">Our robust systems empower organizations worldwide to unlock untapped potential, driving unprecedented growth and efficiency. Join the forefront of innovation and elevate your enterprise with Fastech - the epitome of excellence in the digital era. Trust us to transform your future today.</div>
                             <Link href="/about" className="theme-btn btn-style-five"><span className="txt">Learn More</span></Link>
                         </div>
                     </div>

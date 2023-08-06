@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ts1 from '/public/images/resource/author-1.png'
 import ts2 from '/public/images/resource/author-2.png'
+import ts3 from '/public/images/resource/author-3.png'
+import ts4 from '/public/images/resource/author-4.png'
 import Image from "next/image";
 
 
@@ -37,23 +39,29 @@ const Testimonial = (props) => {
     const testimonial = [
         {
             tsImg: ts1,
-            Des: "I had so much fun working with your specialists on my business project that we will come back soom!",
-            Title: 'Margaret Sunsan',
-            Sub: "Developer",
+            Des: "Very good experience he very professional. Reussis to make my site perfectly. I recommend this person for your future site design.",
+            Title: 'Skwprofessionne',
+            Sub: "France",
         },
         {
             tsImg: ts2,
-            Des: "I had so much fun working with your specialists on my business project that we will come back soom!",
-            Title: 'Eizabeth Blackwell',
-            Sub: "Web Designer",
+            Des: "The seller was very prompt and professional. Work was completed exactly as requested without any additional feedback and correction. I will definitely work with the seller again.",
+            Title: 'Osceroz',
+            Sub: "United States",
         },
         {
-            tsImg: ts1,
-            Des: "I had so much fun working with your specialists on my business project that we will come back soom!",
-            Title: 'Margaret Sunsan',
-            Sub: "Developer",
+            tsImg: ts3,
+            Des: "Glad to say that seller is good enough, with communication and deliverables on time. He did my project is well organized in java regarding React JS and Spring Boot.",
+            Title: 'Mainantonio1',
+            Sub: "Netherlands",
+        },
+        {
+            tsImg: ts4,
+            Des: "Best experience with the seller, he did my blockchain application before the deadline. Highly recommended.",
+            Title: 'Anuenaam',
+            Sub: "Netherlands",
         }
-        
+
     ]
     return (
 

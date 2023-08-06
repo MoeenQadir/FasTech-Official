@@ -519,7 +519,7 @@ img {
 	background: #EA3368;
     background: -webkit-linear-gradient(to right, #a95d07 0%, #ad3e0a 100%);
     background: -moz-linear-gradient(to right, #a95d07 0%, #ad3e0a 100%);
-    background: linear-gradient(to right, #a95d07 0%, #ad3e0a 100%);
+    background: linear-gradient(to right, #2e4757 0%, #527d98 100%);
 }
 
 .btn-style-three .txt {
@@ -2024,7 +2024,7 @@ img {
 }
 
 .main-menu .navigation>li>ul>li:hover>a {
-	color: #eb3867;
+	color: #da7b08;
 	padding-left: 30px;
 }
 
@@ -2434,7 +2434,7 @@ img {
 	top: 0px;
 	bottom: 0px;
 	width: 180%;
-	background-color: #0028a1;
+	background-color: #2e4757;
 	border-radius: 0px 8px 8px 0px;
 }
 
@@ -2462,7 +2462,7 @@ img {
 	width: 20%;
 	height: 1px;
 	opacity: 0;
-	background-color: #fe4c1c;
+	background-color: #da7b08;
 	transition: all 700ms ease;
 	-webkit-transition: all 700ms ease;
 	-ms-transition: all 700ms ease;
@@ -15629,7 +15629,7 @@ img {
 	background: #ff0300;
 	background: -webkit-linear-gradient(to right, #ff0300 0%, #ff8f00 100%);
 	background: -moz-linear-gradient(to right, #ff0300 0%, #ff8f00 100%);
-	background: linear-gradient(to right, #ff0300 0%, #ff8f00 100%);
+	background: linear-gradient(to right, #2e4757 0%, #628fab 100%);
 }
 
 .team-block-two .inner-box:hover::after {
@@ -16128,7 +16128,7 @@ img {
 	background: #151ab2;
 	background: -webkit-linear-gradient(to right, #151ab2 0%, #4c68e2 100%);
 	background: -moz-linear-gradient(to right, #151ab2 0%, #4c68e2 100%);
-	background: linear-gradient(to right, #151ab2 0%, #4c68e2 100%);
+	background: linear-gradient(to right, #2e4757 0%, #41789b 100%);
 }
 
 .business-section .pattern-layer {

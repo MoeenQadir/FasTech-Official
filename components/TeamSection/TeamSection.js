@@ -15,9 +15,9 @@ const TeamSection = (props) => {
         <section className="team-section-two">
             <div className="auto-container">
                 <SectionTitle subTitle={'Our Team'} MainTitle={'Our Expert Leadership'} />
-                <div className="row clearfix">
-                    {Teams.slice(0, 3).map((team, aitem) => (
-                        <div className="team-block-two col-lg-4 col-md-6 col-sm-12" key={aitem}>
+                <div className="row clearfix flex-row justify-content-center">
+                    {Teams.slice(0, 2).map((team, aitem) => (
+                        <div className="team-block-two col-lg-4 col-md-6 col-sm-12  " key={aitem}>
                             <div className="inner-box">
                                 <ul className="team-social-box">
                                     <li className="youtube"><Link onClick={ClickHandler} href={'/team-single/[slug]'} as={`/team-single/${team.slug}`} className="fa fa-youtube"></Link><span className="social-name">youtube</span></li>

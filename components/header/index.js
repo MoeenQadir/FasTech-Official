@@ -3,7 +3,7 @@ import Link from 'next/link'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
-import Logo from '/public/images/logo/fastech.png'
+import Logo from '/public/images/logo/fastech-white.png'
 import Image from 'next/image';
 
 
@@ -23,7 +23,7 @@ const Header = (props) => {
             <div className="header-upper">
                 <div className="auto-container clearfix">
                     <div className="pull-left logo-box">
-                        <div className="logo"><Link onClick={ClickHandler} href="/home"><Image src={Logo} alt="" title="" /></Link></div>
+                        <div className="logo"><Link onClick={ClickHandler} href="/"><Image src={Logo} alt="" title="" /></Link></div>
                     </div>
                     <div className="nav-outer clearfix">
                         <MobileMenu/>
@@ -38,48 +38,17 @@ const Header = (props) => {
 
                             <div className="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                 <ul className="navigation clearfix">
-                                    <li className="current dropdown"><Link onClick={ClickHandler} href="/">Home</Link>
+                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Products Catalog</Link>
                                         <ul>
-                                            <li><Link onClick={ClickHandler} href="/home">Homepage One</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/home2">Homepage Two</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/home3">Homepage Three</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/home4">Homepage Four</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/home5">Homepage Five</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/home6">Homepage Six</Link></li>
-                                            <li className="dropdown"><Link onClick={ClickHandler} href="/">Header Styles</Link>
-                                                <ul>
-                                                    <li><Link onClick={ClickHandler} href="/home">Header Style One</Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/home2">Header Style Two</Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/home3">Header Style Three</Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/home4">Header Style Four</Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/home5">Header Style Five</Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/home6">Header Style Six</Link></li>
-                                                </ul>
-                                            </li>
+                                            <li><Link onClick={ClickHandler} href="/callsense">CallSense</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/projects-left-sidebar">Invoice Generator</Link></li>
                                         </ul>
                                     </li>
-                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">About</Link>
+                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Opportunities</Link>
                                         <ul>
-                                            <li><Link onClick={ClickHandler} href="/about">About Us</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/faq">Faq</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/price">Price</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/team">Team</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/team-single/Bina-Rano">Team Detail</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/testimonial">Testimonial</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/comming-soon">Comming Soon</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/terms">Terms & Condition</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/privacy">Privacy & Policy</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Services</Link>
-                                        <ul>
-                                            <li><Link onClick={ClickHandler} href="/services">Services</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/service-single/Content-Marketing">Content Marketing</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/service-single/Social-Marketing">Social Marketing</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/service-single/App-Development">App Development</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/service-single/SEO-Optimization">SEO Optimization</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/service-single/Web-Development">Web Development</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/service-single/PPC-Advertising">PPC Advertising</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/projects">Job Opportunities</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/projects-left-sidebar">Internship Opportunities</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/projects-right-sidebar">Investment Opportunities</Link></li>
                                         </ul>
                                     </li>
                                     <li className="dropdown"><Link onClick={ClickHandler} href="/">Projects</Link>
@@ -90,77 +59,16 @@ const Header = (props) => {
                                             <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">Projects Details</Link></li>
                                         </ul>
                                     </li>
-                                    <li className="dropdown has-mega-menu"><Link onClick={ClickHandler} href="/">Pages</Link>
-                                        <div className="mega-menu">
-                                            <div className="mega-menu-bar row clearfix">
-                                                <div className="column col-lg-3 col-md-4 col-sm-12">
-                                                    <h3>About Us</h3>
-                                                    <ul>
-                                                        <li><Link onClick={ClickHandler} href="/about">About Us</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/faq">Faq</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/price">Price</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/team">Team</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/team-single/Bina-Rano">Team Detail</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/testimonial">Testimonial</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/comming-soon">Comming Soon</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/terms">Terms & Condition</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/privacy">Privacy & Policy</Link></li>
-                                                    </ul>
-                                                </div>
-                                                <div className="column col-lg-3 col-md-4 col-sm-12">
-                                                    <h3>Services</h3>
-                                                    <ul>
-                                                        <li><Link onClick={ClickHandler} href="/services">Services</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/service-single/Content-Marketing">Content Marketing</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/service-single/Social-Marketing">Social Marketing</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/service-single/App-Development">App Development</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/service-single/SEO-Optimization">SEO Optimization</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/service-single/Web-Development">Web Development</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/service-single/PPC-Advertising">PPC Advertising</Link></li>
-                                                    </ul>
-                                                </div>
-                                                <div className="column col-lg-3 col-md-4 col-sm-12">
-                                                    <h3>Blog</h3>
-                                                    <ul>
-                                                        <li><Link onClick={ClickHandler} href="/blog">Our Blog</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/blog-classNameic">Blog classNameic</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/blog-left-sidebar">Blog Left Sidebar</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/blog-single/Google-now-disregards-or-overlooks-all-reciprocal-links">Blog Single</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/not-found">Not Found</Link></li>
-                                                    </ul>
-                                                </div>
-                                                <div className="column col-lg-3 col-md-4 col-sm-12">
-                                                    <h3>Our Shop</h3>
-                                                    <ul>
-                                                        <li><Link onClick={ClickHandler} href="/shop">Shop</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/product-single/Book-Item-1">Shop Details</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/shoping-cart">Cart Page</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/checkout">Checkout Page</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/login">Login</Link></li>
-                                                        <li><Link onClick={ClickHandler} href="/login">Register</Link></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Shop</Link>
+                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Blogs</Link>
                                         <ul>
-                                            <li><Link onClick={ClickHandler} href="/shop">Our Products</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/product-single/Book-Item-1">Product Single</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/shopping-cart">Shopping Cart</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/checkout">Checkout</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/login">Account</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/projects-left-sidebar">Full Stack Web Development</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/projects-right-sidebar">FasTech Bot Community</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">Web3Makr Community </Link></li>
+                                            <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">FasTech Marketplace Community  </Link></li>
+                                            <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">CMS SASS App Community</Link></li>
                                         </ul>
                                     </li>
-                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Blog</Link>
-                                        <ul>
-                                            <li><Link onClick={ClickHandler} href="/blog">Our Blog</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/blog-classNameic">Blog classNameic</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/blog-left-sidebar">Blog Left Sidebar</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/blog-single/Google-now-disregards-or-overlooks-all-reciprocal-links">Blog Single</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/not-found">Not Found</Link></li>
-                                        </ul>
-                                    </li>
+                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">About</Link></li>
                                     <li><Link onClick={ClickHandler} href="/contact">Contact us</Link></li>
                                 </ul>
                             </div>
@@ -168,7 +76,7 @@ const Header = (props) => {
 
                         <div className="outer-box clearfix">
                             <div className="btn-box">
-                                <Link onClick={ClickHandler} href="/contact" className="theme-btn btn-style-one"><span className="txt">Get A Quote</span></Link>
+                                <Link onClick={ClickHandler} href="/contact" className="theme-btn btn-style-one"><span className="txt">Login</span></Link>
                             </div>
                             <div onClick={() => setSearchState(!searchActive)} className="search-box-btn search-box-outer"><span className="icon fa fa-search"></span></div>
                         </div>

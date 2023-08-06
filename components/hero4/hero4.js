@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Link from 'next/link'
 import Slider from "react-slick";
 import hero5 from '/public/images/main-slider/content-image-1.png'
@@ -11,6 +11,7 @@ import icon6 from '/public/images/main-slider/icon-6.png'
 import Image from "next/image";
 
 const Hero4 = () => {
+    const [isOpen, setOpen] = useState(false)
 
     var settings = {
         dots: false,
@@ -97,7 +98,6 @@ const Hero4 = () => {
                                             </div>
                                         </div>
                                     </div>
-
                                     <div className="image-column col-lg-6 col-md-12 col-sm-12">
                                         <div className="inner-column">
                                             <div className="image">

@@ -719,9 +719,9 @@ img {
 	text-transform: capitalize;
 	font-family: 'Archivo', sans-serif;
 	background: #0028A4;
-	background: -webkit-linear-gradient(to right, #0028A4 0%, #003ffd 100%);
-	background: -moz-linear-gradient(to right, #0028A4 0%, #003ffd 100%);
-	background: linear-gradient(to right, #0028A4 0%, #003ffd 100%);
+	background: -webkit-linear-gradient(to right, #f3a344 0%, #eeb067 100%);
+	background: -moz-linear-gradient(to right, #f3a344 0%, #eeb067 100%);
+	background: linear-gradient(to right, #f3a344 0%, #eeb067 100%);
 }
 
 .btn-style-seven:before {
@@ -733,7 +733,7 @@ img {
 	height: 100%;
 	z-index: 1;
 	opacity: 1;
-	background-color: #ec3a67;
+	background-color: #2e4757;
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	-o-transition: all 0.4s;

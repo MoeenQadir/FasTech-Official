@@ -7,12 +7,10 @@ import CtaSectionS2 from '../../components/CtaSectionS2/CtaSectionS2';
 import Testimonial2 from '../../components/Testimonial2/Testimonial2';
 import FaqSection from '../../components/FaqSection/FaqSection';
 import PartnerSection from '../../components/PartnerSection';
-import BlogSection2 from '../../components/BlogSection2/BlogSection2';
-import SeoSection2 from '../../components/SeoSection2/SeoSection2';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Footer2 from '../../components/footer2/Footer2';
 import ServiceSectionS3 from "../../components/ServiceSectionS3/ServiceSectionS3";
-import ProjectSection from "../../components/ProjectSection/ProjectSection";
+import Pricing from "../../components/Pricing/Pricing";
 
 const HomePage5 = () => {
     return (
@@ -23,9 +21,7 @@ const HomePage5 = () => {
             <FunFact3 />
             <ServiceSectionS3/>
             <CtaSectionS2 s2Class={'s2'}/>
-            <PartnerSection styleClass={'clients-section-two margin-top'}/>
-             {/*<ProjectSection />*/}
-            <Testimonial2 />
+            <Pricing />
             <FaqSection />
             <Footer2 />
             <Scrollbar />

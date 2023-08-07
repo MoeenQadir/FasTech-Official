@@ -51,15 +51,25 @@ const Header = (props) => {
                                             <li><Link onClick={ClickHandler} href="/projects-right-sidebar">Investment Opportunities</Link></li>
                                         </ul>
                                     </li>
-                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Projects</Link>
+                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Offering</Link>
                                         <ul>
                                             <li><Link onClick={ClickHandler} href="/projects">Projects</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/projects-left-sidebar">Projects Left Sidebar</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/projects-right-sidebar">Project Right Sidebar</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">Projects Details</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/projects-left-sidebar">Services</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/projects-right-sidebar">Products</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">Solutions</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">Consulting</Link></li>
                                         </ul>
                                     </li>
-                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Blogs</Link>
+                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Impact</Link>
+                                        <ul>
+                                            <li><Link onClick={ClickHandler} href="/projects-left-sidebar">CSR Activities</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/projects-right-sidebar">Certification and Awards</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">Our Centers </Link></li>
+                                            <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">Partnership</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">CMS SASS App Community</Link></li>
+                                        </ul>
+                                    </li>
+                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">Tools</Link>
                                         <ul>
                                             <li><Link onClick={ClickHandler} href="/projects-left-sidebar">Full Stack Web Development</Link></li>
                                             <li><Link onClick={ClickHandler} href="/projects-right-sidebar">FasTech Bot Community</Link></li>

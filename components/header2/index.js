@@ -30,7 +30,7 @@ const Header2 = (props) => {
 				<div className="auto-container clearfix">
 
 					<div className="pull-left logo-box">
-						<div className="logo"><Link href="/home"><Image src={Logo} alt="" title="" /></Link></div>
+						<div className="logo"><Link href="/"><Image src={Logo} alt="" title="" /></Link></div>
 					</div>
 
 					<div className="nav-outer clearfix">

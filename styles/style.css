@@ -16393,6 +16393,6 @@ img {
     position: relative;
     height: 66px;
     padding: 8px;
-    border: 1px solid #06ff4c;
-    border-radius: 8px;
+    border: 1px solid #06ff4c !important;
+    border-radius: 8px !important;
 }

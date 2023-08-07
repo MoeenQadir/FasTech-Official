@@ -21,7 +21,7 @@ const Teams = [
       tImg: timg2,
       name: 'Fahad Shahzad',
       slug: 'Fahad-Shahzad',
-      title: 'CTO of Company',
+      title: 'Director and CTO',
    },
    {
       Id: '3',

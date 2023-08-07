@@ -3,6 +3,7 @@ import Link from 'next/link'
 import ModalVideo from 'react-modal-video'
 import hero1 from '/public/images/resource/banner-1.png'
 import Image from 'next/image'
+import CallSenseModal from "../callsense/CallSenseModal";
 
 const Hero5 = () => {
 
@@ -33,7 +34,7 @@ const Hero5 = () => {
                             <h1>CallSense<br /> One Click Analyzer</h1>
                             <div className="text">CallSense is an advanced AI tool that intelligently analyzes audio, particularly call recordings,<br /> to provide accurate insights into the behavioral emotions expressed within the conversation.</div>
                             <div className="clearfix">
-                                <Link href="/about" className="theme-btn btn-style-seven"><span className="txt">Lets Start</span></Link>
+                                <CallSenseModal/>
                                 <div className="phone-box">
                                     <span className="phone-icon fa fa-phone"></span>
                                     <a className="phone" href="tel:+92 313 1373109">+92 313 1373109</a>

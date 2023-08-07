@@ -16396,3 +16396,10 @@ img {
     border: 1px solid #06ff4c !important;
     border-radius: 8px !important;
 }
+:where(.css-fpg3f5).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture .ant-upload-list-item-error, :where(.css-fpg3f5).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-error, :where(.css-fpg3f5).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-circle .ant-upload-list-item-error{
+    position: relative;
+    height: 66px;
+    padding: 8px;
+    border: 1px solid #06ff4c !important;
+    border-radius: 8px !important;
+}

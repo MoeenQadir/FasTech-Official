@@ -15,7 +15,7 @@ const BuildStep = (props) => {
                             <div className="icon-box">
                                 <div className="number">01</div>
                             </div>
-                            <h6>Advertising and Marketing</h6>
+                            <h6>Strategic Planning</h6>
                         </div>
                     </div>
                     <div className="step-block col-lg-3 col-md-6 col-sm-12">
@@ -23,7 +23,7 @@ const BuildStep = (props) => {
                             <div className="icon-box">
                                 <div className="number">02</div>
                             </div>
-                            <h6>Web <br/> Development</h6>
+                            <h6>Agile  <br/> Development</h6>
                         </div>
                     </div>
                     <div className="step-block col-lg-3 col-md-6 col-sm-12">
@@ -31,7 +31,7 @@ const BuildStep = (props) => {
                             <div className="icon-box">
                                 <div className="number">03</div>
                             </div>
-                            <h6>Mobile App <br/> Development</h6>
+                            <h6>Quality Assurance <br/> and Testing</h6>
                         </div>
                     </div>
                     <div className="step-block col-lg-3 col-md-6 col-sm-12">
@@ -39,7 +39,7 @@ const BuildStep = (props) => {
                             <div className="icon-box">
                                 <div className="number">04</div>
                             </div>
-                            <h6>Search Engine Optimization</h6>
+                            <h6>Continuous Improvement</h6>
                         </div>
                     </div>
                 </div>

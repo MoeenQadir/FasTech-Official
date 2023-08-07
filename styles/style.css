@@ -7776,7 +7776,7 @@ img {
 	height: 100%;
 	color: #ffffff;
 	text-align: center;
-	background-color: rgba(235, 53, 103, 0.80);
+	background-color: rgba(218, 123, 8,0.3);
 	transition: -webkit-transform 0.4s ease;
 	transition: transform 0.4s ease;
 	transition: transform 0.4s ease, -webkit-transform 0.4s ease;
@@ -7963,11 +7963,18 @@ img {
 	margin-top: 10px;
 	background: #ff0300;
 	text-transform: capitalize;
-	background: -webkit-linear-gradient(to right, #ff0300 0%, #ff8f00 100%);
-	background: -moz-linear-gradient(to right, #ff0300 0%, #ff8f00 100%);
-	background: linear-gradient(to right, #ff0300 0%, #ff8f00 100%);
+	background: -webkit-linear-gradient(to right, #f3a344 0%, #fdb969 100%);
+	background: -moz-linear-gradient(to right, #f3a344 0%, #fdb969 100%);
+	background: linear-gradient(to right, #f3a344 0%, #fdb969 100%);
 }
-
+.news-block-two.style-two .inner-box .social-boxed .social-inner:hover {
+    margin-top: 10px;
+    background: #ff0300;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(to right, #253641 0%, #283c49 100%);
+    background: -moz-linear-gradient(to right, #253641 0%, #283c49 100%);
+    background: linear-gradient(to right, #253641 0%, #283c49 100%);
+}
 /*** 
 
 ====================================================================

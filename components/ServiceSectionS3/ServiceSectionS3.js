@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Services from '../../api/Services';
+import Services from '../../api/CallSense';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -44,9 +44,9 @@ const ServiceSectionS3 = (props) => {
         <section className="services-section-five">
             <div className="auto-container">
                 <div className="sec-title centered">
-                    <div className="title">Our Services</div>
-                    <h2>Create Awesome Service With Our Tools</h2>
-                    <div className="text">Our strategy includes consistently evolving, to ensure we’re producing <br/> exceptional SEO for business.</div>
+                    <div className="title">CallSense PROCESS</div>
+                    <h2>Explore the creative process</h2>
+                    <div className="text">CallSense processes call audios through advanced AI algorithms to detect emotions <br/>  conduct speech recognition.</div>
                 </div>
 
                 <div className="services-carousel">

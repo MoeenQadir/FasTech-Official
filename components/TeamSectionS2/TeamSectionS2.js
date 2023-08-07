@@ -14,7 +14,7 @@ const TeamSectionS2 = (props) => {
         <section className="team-section">
             <div className="outer-container">
                 <div className="row clearfix">
-                    {Teams.slice(3, 8).map((team, aitem) => (
+                    {Teams.slice(0, 5).map((team, aitem) => (
                         <div className="team-block" key={aitem}>
                             <div className="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="image">

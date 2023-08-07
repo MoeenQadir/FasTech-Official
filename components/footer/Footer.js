@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Logo from '/public/images/logo.png'
+import Logo from '/public/images/logo/fastech-white.png'
 import Services from '../../api/Services';
 import Projects from '../../api/project'
 import Image from 'next/image';
@@ -80,7 +80,7 @@ const Footer = (props) => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <div className="copyright">Copyright © 2023 Merix by <Link onClick={ClickHandler} href="/">noor_tech</Link>. All Rights Reserved. All Rights Reserved.</div>
+                    <div className="copyright">Copyright © 2023 by <Link onClick={ClickHandler} href="/">FasTech Systems</Link>. All Rights Reserved. All Rights Reserved.</div>
                 </div>
 
             </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Logo from '/public/images/logo-3.png'
+import Logo from '/public/images/logo/fastech.png'
 import btn1 from '/public/images/icons/app-btn.png'
 import btn2 from '/public/images/icons/google-btn.png'
 import Image from 'next/image'
@@ -23,9 +23,10 @@ const Footer2 = (props) => {
                                 <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                                     <div className="footer-widget logo-widget">
                                         <div className="logo">
-                                            <Link onClick={ClickHandler} href="/home2"><Image src={Logo} alt="" /></Link>
+                                            <Link onClick={ClickHandler} href="/"><Image src={Logo} alt="" /></Link>
                                         </div>
-                                        <div className="text">Lorem ipsum dolor amet consectetur adip- ielit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis....</div>
+                                        <div className="text">At FasTech, we revolutionize businesses with cutting-edge
+                                            AI-powered enterprise solutions.</div>
                                     </div>
                                 </div>
 
@@ -63,9 +64,9 @@ const Footer2 = (props) => {
                                         <div className="widget-content">
                                             <ul>
                                                 <li>Mon – Sat 10:00pm - 8:00pm</li>
-                                                <li><a href="tel:+0987-654-321">0987 654 321</a> <a href="tel:+0123-456-789">0123 456 789</a></li>
-                                                <li><a href="mailto:Merix@gmail.com">Merix@gmail.com</a></li>
-                                                <li>16122 Collins Street West, Melbourne, VIC Srsars</li>
+                                                <li><a href="tel:+92 313 1373109">+92 313 1373109</a></li>
+                                                <li><a href="mailto:info@fastechsystem.com">info@fastechsystem.com</a></li>
+                                                <li>Dehli Housing Muslim Society, Sukkur, Sindh Pakistan</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -101,7 +102,7 @@ const Footer2 = (props) => {
                     <div className="row clearfix">
 
                         <div className="copyright-column col-lg-6 col-md-12 col-sm-12">
-                            <div className="copyright">Copyright &copy; 2023. All Rights Reserved By <Link href="/">noor_tech.</Link></div>
+                            <div className="copyright">Copyright &copy; 2023. All Rights Reserved By <Link href="/">FasTech.</Link></div>
                         </div>
                         <div className="nav-column col-lg-6 col-md-12 col-sm-12">
                             <ul>

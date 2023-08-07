@@ -28,7 +28,7 @@ const pricing = [
         price2: '129.99',
         active: 'active',
         btnClass: 'btn-style-six',
-        shape:'/images/background/price-pattern-3.png',
+        shape:'/images/background/price-pattern-1.png',
     },
     {
         li1: 'Social Media Marketing',

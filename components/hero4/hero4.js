@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Link from 'next/link'
 import Slider from "react-slick";
 import hero5 from '/public/images/main-slider/content-image-1.png'
@@ -11,6 +11,7 @@ import icon6 from '/public/images/main-slider/icon-6.png'
 import Image from "next/image";
 
 const Hero4 = () => {
+    const [isOpen, setOpen] = useState(false)
 
     var settings = {
         dots: false,
@@ -28,7 +29,7 @@ const Hero4 = () => {
             <div className="main-slider-carousel">
                 <Slider {...settings}>
                     <div className="slide">
-                        <div className="hero-inner" style={{ backgroundImage: `url(${'/images/main-slider/image-1.png'})` }}>
+                        <div className="hero-inner" style={{ backgroundImage: `url(${'/images/custom-bg/1.png'})` }}>
                             <div className="patern-layer-one" style={{ backgroundImage: `url(${'/images/main-slider/pattern-1.png'})` }}></div>
                             <div className="patern-layer-two" style={{ backgroundImage: `url(${'/images/main-slider/pattern-2.png'})` }}></div>
                             <div className="dotted-layer" style={{ backgroundImage: `url(${'/images/main-slider/dotted-layer.png'})` }}></div>
@@ -37,8 +38,8 @@ const Hero4 = () => {
 
                                     <div className="content-column col-lg-6 col-md-12 col-sm-12">
                                         <div className="inner-column">
-                                            <div className="title">What’s Your SEO Score</div>
-                                            <h1>SEO Services Provide <br /> For Your Agency</h1>
+                                            <div className="title">Welcome to FasTech System</div>
+                                            <h1>FasTech Systems <br /> A cutting-edge Agency</h1>
                                             <div className="btns-box">
                                                 <Link href="/about" className="theme-btn btn-style-three"><span className="txt">Lets Start</span></Link>
                                                 <Link href="/contact" className="theme-btn btn-style-four"><span className="txt">Contact Now</span></Link>
@@ -80,7 +81,7 @@ const Hero4 = () => {
                         </div>
                     </div>
                     <div className="slide">
-                        <div className="hero-inner" style={{ backgroundImage: `url(${'/images/main-slider/image-1.png'})` }}>
+                        <div className="hero-inner" style={{ backgroundImage: `url(${'/images/custom-bg/1.png'})` }}>
                             <div className="patern-layer-one" style={{ backgroundImage: `url(${'/images/main-slider/pattern-1.png'})` }}></div>
                             <div className="patern-layer-two" style={{ backgroundImage: `url(${'/images/main-slider/pattern-2.png'})` }}></div>
                             <div className="dotted-layer" style={{ backgroundImage: `url(${'/images/main-slider/dotted-layer.png'})` }}></div>
@@ -89,15 +90,14 @@ const Hero4 = () => {
 
                                     <div className="content-column col-lg-6 col-md-12 col-sm-12">
                                         <div className="inner-column">
-                                            <div className="title">What’s Your SEO Score</div>
-                                            <h1>SEO Services Provide <br /> For Your Agency</h1>
+                                            <div className="title">SAAS Services</div>
+                                            <h1>SAAS Services <br /> For Your Agency</h1>
                                             <div className="btns-box">
                                                 <Link href="/about" className="theme-btn btn-style-three"><span className="txt">Lets Start</span></Link>
                                                 <Link href="/contact" className="theme-btn btn-style-four"><span className="txt">Contact Now</span></Link>
                                             </div>
                                         </div>
                                     </div>
-
                                     <div className="image-column col-lg-6 col-md-12 col-sm-12">
                                         <div className="inner-column">
                                             <div className="image">
@@ -132,7 +132,7 @@ const Hero4 = () => {
                         </div>
                     </div>
                     <div className="slide">
-                        <div className="hero-inner" style={{ backgroundImage: `url(${'/images/main-slider/image-1.png'})` }}>
+                        <div className="hero-inner" style={{ backgroundImage: `url(${'/images/custom-bg/1.png'})` }}>
                             <div className="patern-layer-one" style={{ backgroundImage: `url(${'/images/main-slider/pattern-1.png'})` }}></div>
                             <div className="patern-layer-two" style={{ backgroundImage: `url(${'/images/main-slider/pattern-2.png'})` }}></div>
                             <div className="dotted-layer" style={{ backgroundImage: `url(${'/images/main-slider/dotted-layer.png'})` }}></div>
@@ -141,8 +141,8 @@ const Hero4 = () => {
 
                                     <div className="content-column col-lg-6 col-md-12 col-sm-12">
                                         <div className="inner-column">
-                                            <div className="title">What’s Your SEO Score</div>
-                                            <h1>SEO Services Provide <br /> For Your Agency</h1>
+                                            <div className="title">All Digital Services</div>
+                                            <h1>AI-powered enterprise solutions <br /> For Your Agency</h1>
                                             <div className="btns-box">
                                                 <Link href="/about" className="theme-btn btn-style-three"><span className="txt">Lets Start</span></Link>
                                                 <Link href="/contact" className="theme-btn btn-style-four"><span className="txt">Contact Now</span></Link>

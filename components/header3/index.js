@@ -41,7 +41,7 @@ const Header3 = (props) => {
                                             <li><Link onClick={ClickHandler} href="/home">Homepage One</Link></li>
                                             <li><Link onClick={ClickHandler} href="/home2">Homepage Two</Link></li>
                                             <li><Link onClick={ClickHandler} href="/home3">Homepage Three</Link></li>
-                                            <li><Link onClick={ClickHandler} href="/home4">Homepage Four</Link></li>
+                                            <li><Link onClick={ClickHandler} href="/pages">Homepage Four</Link></li>
                                             <li><Link onClick={ClickHandler} href="/home5">Homepage Five</Link></li>
                                             <li><Link onClick={ClickHandler} href="/home6">Homepage Six</Link></li>
                                             <li className="dropdown"><Link onClick={ClickHandler} href="/">Header Styles</Link>
@@ -49,7 +49,7 @@ const Header3 = (props) => {
                                                     <li><Link onClick={ClickHandler} href="/home">Header Style One</Link></li>
                                                     <li><Link onClick={ClickHandler} href="/home2">Header Style Two</Link></li>
                                                     <li><Link onClick={ClickHandler} href="/home3">Header Style Three</Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/home4">Header Style Four</Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/pages">Header Style Four</Link></li>
                                                     <li><Link onClick={ClickHandler} href="/home5">Header Style Five</Link></li>
                                                     <li><Link onClick={ClickHandler} href="/home6">Header Style Six</Link></li>
                                                 </ul>

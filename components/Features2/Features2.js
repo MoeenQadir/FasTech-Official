@@ -9,22 +9,22 @@ const Features2 = (props) => {
     const featres = [
         {
             fIcon: 'flaticon-shuttle',
-            title: 'Greate Results',
+            title: 'Cutting-Edge Innovations',
             des: 'We have seen great successes with everyone companies.',
         },
         {
             fIcon: 'flaticon-globe',
-            title: 'Business Worth',
+            title: 'Next-Gen SAAS Solutions',
             des: 'We have seen great successes with everyone companies.',
         },
         {
             fIcon: 'flaticon-network',
-            title: 'Keep Your Groth',
+            title: 'Expertise in Latest Technologies',
             des: 'We have seen great successes with everyone companies.',
         },
         {
             fIcon: 'flaticon-bar-chart',
-            title: 'Important ROI',
+            title: 'Driving Technological Revolutions',
             des: 'We have seen great successes with everyone companies.',
         },
 

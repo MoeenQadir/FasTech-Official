@@ -12,16 +12,16 @@ const Teams = [
    {
       Id: '1',
       tImg: timg1,
-      name: 'Christina Tores',
-      slug: 'Christina-Tores',
+      name: 'Dr. Ghulam Mujtaba',
+      slug: 'Dr-Ghulam-Mujtaba',
       title: 'CEO of Company',
    },
    {
       Id: '2',
       tImg: timg2,
-      name: 'Jacken Mike',
-      slug: 'Jacken-Mike',
-      title: 'General Manager',
+      name: 'Fahad Shahzad',
+      slug: 'Fahad-Shahzad',
+      title: 'CTO of Company',
    },
    {
       Id: '3',

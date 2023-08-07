@@ -15,7 +15,7 @@ const Hero5 = () => {
                     <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="inner-column">
                             <div className="image">
-                                <Image src={hero1} alt="" />
+                                <Image src={hero1} alt="CallSense" />
                                 <div className="play-box">
                                     <span onClick={()=> setOpen(true)} className="lightbox-image play-icon wow bounceIn" data-wow-delay="0ms" data-wow-duration="1500ms"><span className="flaticon-play"></span></span>
                                 </div>
@@ -30,13 +30,13 @@ const Hero5 = () => {
                         <div className="pattern-layer-five" style={{ backgroundImage: `url(${'/images/icons/icon-14.png'})` }}></div>
                         <div className="inner-column">
                             <div className="title">Best for You</div>
-                            <h1>We’re Digital AIl <br /> Startup Support</h1>
-                            <div className="text">We bet you don’t spend much time on the 2nd page <br /> of Google - So why should your website,</div>
+                            <h1>CallSense<br /> One Click Analyzer</h1>
+                            <div className="text">CallSense is an advanced AI tool that intelligently analyzes audio, particularly call recordings,<br /> to provide accurate insights into the behavioral emotions expressed within the conversation.</div>
                             <div className="clearfix">
                                 <Link href="/about" className="theme-btn btn-style-seven"><span className="txt">Lets Start</span></Link>
                                 <div className="phone-box">
                                     <span className="phone-icon fa fa-phone"></span>
-                                    <a className="phone" href="tel:+9999-000-999">9999 000 999</a>
+                                    <a className="phone" href="tel:+92 313 1373109">+92 313 1373109</a>
                                 </div>
                             </div>
                         </div>

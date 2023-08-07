@@ -1,9 +1,9 @@
 import pimg1 from '/public/images/gallery/1.jpg'
 import pimg2 from '/public/images/gallery/2.jpg'
 import pimg3 from '/public/images/gallery/3.jpg'
-import pimg4 from '/public/images/gallery/4.jpg'
-import pimg5 from '/public/images/gallery/5.jpg'
-import pimg6 from '/public/images/gallery/6.jpg'
+import pimg4 from '/public/images/gallery/3.jpg'
+import pimg5 from '/public/images/gallery/2.jpg'
+import pimg6 from '/public/images/gallery/1.jpg'
 
 import ps1img1 from '/public/images/gallery/1.jpg'
 import ps1img2 from '/public/images/gallery/2.jpg'

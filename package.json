@@ -1,4 +1,7 @@
 {
+  "name": "fas-tech-systems",
+  "version": "1.0.0",
+  "description": "At FasTech, we revolutionize businesses with cutting-edge nAI-powered enterprise solutions, setting new standards in security, scalability, and speed.",
   "private": true,
   "scripts": {
     "dev": "next dev",

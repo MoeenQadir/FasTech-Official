@@ -16406,9 +16406,9 @@ img {
 :where(.css-fpg3f5).ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-list-item-name, :where(.css-fpg3f5).ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-icon .anticon{
     color: #1e1e1e !important;
 }
-element.style {
-    color: black;
+:where(.css-fpg3f5).ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-list-item-actions .anticon, :where(.css-fpg3f5).ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-list-item-actions .anticon:hover{
+    color: rgba(0, 0, 0, 0.7) !important;
 }
-.element.style {
-    color: #1e1e1e !important;
+:where(.css-fpg3f5).ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-list-item-actions .anticon, :where(.css-fpg3f5).ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-list-item-actions .anticon{
+    color: rgba(0, 0, 0, 0.45) !important;
 }

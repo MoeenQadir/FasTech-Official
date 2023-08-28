@@ -78,7 +78,7 @@ const Header = (props) => {
                                             <li><Link onClick={ClickHandler} href="/project-single/Movie-Recommendation">CMS SASS App Community</Link></li>
                                         </ul>
                                     </li>
-                                    <li className="dropdown"><Link onClick={ClickHandler} href="/">About</Link></li>
+                                    <li className="dropdown"><Link onClick={ClickHandler} href="/about-fastech">About</Link></li>
                                     <li><Link onClick={ClickHandler} href="/contact">Contact us</Link></li>
                                 </ul>
                             </div>

@@ -23,13 +23,13 @@ const Mission = (props) => {
                         <div className="inner-column">
                             <div className="sec-title">
                                 <div className="title">WHO WE ARE</div>
-                                <h2>To Change Your View For <br /> SEO Our Mission</h2>
+                                <h2>To Change Your View For <br /> FasTech Our Mission</h2>
                             </div>
-                            <div className="bold-text">Merix is a brand of digital agency. Competen novate synergstic vortas through forward strategic theme areas Compelling extend super was that Proactive myocardinate vertical strategic</div>
+                            <div className="bold-text">FasTech Systems is a pioneering SAAS product company driving digital innovation and revolutionizing software solutions.</div>
                             <ul className="mission-list">
-                                <li><span className="icon"><Image src={mImg2} alt="" /></span>If Google can’t crawl your site, it’s not going to rank – but that doesn’t mean avoiding Javascript.</li>
-                                <li><span className="icon"><Image src={mImg3} alt="" /></span>For businesses which sell products online & and improve their product listings in the search results..</li>
-                                <li><span className="icon"><Image src={mImg4} alt="" /></span>If you’re investing in a new website it’s important to ensure it’s built to succeed in the search results too.</li>
+                                <li><span className="icon"><Image src={mImg2} alt="" /></span>FasTech pioneers SAAS solutions that transform traditional businesses into tech-driven powerhouses.</li>
+                                <li><span className="icon"><Image src={mImg3} alt="" /></span> FasTech's cutting-edge software drives digital transformation, optimizing operations and boosting productivity.</li>
+                                <li><span className="icon"><Image src={mImg4} alt="" /></span>FasTech sets trends with innovative products, shaping the future of software and digital innovation.</li>
                             </ul>
                         </div>
                     </div>

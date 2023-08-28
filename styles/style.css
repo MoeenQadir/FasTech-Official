@@ -1856,7 +1856,7 @@ img {
 
 .sticky-header .main-menu .navigation > li:hover > a,
 .sticky-header .main-menu .navigation > li.current > a {
-    color: #eb3867;
+    color: #f3a344;
     background-color: inherit !important;
 }
 
@@ -1947,7 +1947,7 @@ img {
 .main-menu .navigation > li:hover > a,
 .main-menu .navigation > li.current > a {
     opacity: 1;
-    color: #eb3867;
+    color: #f3a344;
 }
 
 .main-menu .navigation > li > ul {
@@ -8320,12 +8320,12 @@ img {
 .banner-section-three {
     position: relative;
     overflow: hidden;
-    background: #2A327B;
+    background: #2e4757;
     padding-top: 260px;
     padding-bottom: 180px;
-    background: -webkit-linear-gradient(to right, #2A327B 0%, #068acf 100%);
-    background: -moz-linear-gradient(to right, #2A327B 0%, #068acf 100%);
-    background: linear-gradient(to right, #2A327B 0%, #068acf 100%);
+    background: -webkit-linear-gradient(to right, #2e4757 0%, #6c93ab 100%);
+    background: -moz-linear-gradient(to right, #2e4757 0%, #6c93ab 100%);
+    background: linear-gradient(to right, #2e4757 0%, #6c93ab 100%);
 }
 
 .banner-section-three .social-box {
@@ -8359,7 +8359,7 @@ img {
 
 .banner-section-three .social-box li a:hover {
     color: #ffffff;
-    background-color: #eb3667;
+    background-color: #f3a344;
 }
 
 .banner-section-three .icon-layer-one {

@@ -24,11 +24,10 @@ const Hero6 = () => {
                 <div className="row clearfix">
                     <div className="content-column col-lg-6 col-md-12 col-sm-12">
                         <div className="inner-column">
-                            <h1>Data Analytics <br /> Consulting Services</h1>
+                            <h1>FasTech Systems <br /> SAAS Company</h1>
                             <div className="text">World leading reliable research & AI based Data Analytics solutions for Big Data companies and consumer business products</div>
                             <div className="clearfix">
                                 <span onClick={() => setOpen(true)} className="lightbox-image video-box"><span className="fa fa-play"><i className="ripple"></i></span> WATCH VIDEO</span>
-                                <Link href="/about" className="theme-btn btn-style-three"><span className="txt">about us</span></Link>
                             </div>
                         </div>
                     </div>

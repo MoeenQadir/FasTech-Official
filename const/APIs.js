@@ -1,5 +1,5 @@
 import {BASE_URL} from "./const";
-export const BASEURL_DASHBOARD="http://localhost:3000"
+export const BASEURL_DASHBOARD="https://callsense.fastechsystem.com/"
 
 export const API = {
     'USER' : {
